@@ -1,0 +1,5 @@
+https://plugins.jetbrains.com/plugin/4455-key-promoter
+https://github.com/halirutan/IntelliJ-Key-Promoter/tree/KeyPromoterX
+
+https://plugins.jetbrains.com/plugin/4455-key-promoter
+https://github.com/athiele/key-promoter-fork
