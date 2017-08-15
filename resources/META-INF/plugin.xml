@@ -1,6 +1,6 @@
 <idea-plugin>
   <id>com.your.company.unique.plugin.id</id>
-  <name>Plugin display name here</name>
+  <name>OOBI: Out Of Band Input</name>
   <version>1.0</version>
   <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
 
@@ -24,8 +24,22 @@
   <depends>com.intellij.modules.lang</depends>
   -->
 
+  <application-components>
+    <component>
+      <implementation-class>OOBIMain</implementation-class>
+    </component>
+  </application-components>
+
+
   <extensions defaultExtensionNs="com.intellij">
-    <!-- Add your extensions here -->
+      <!--
+    <applicationService serviceImplementation="de.halirutan.keypromoterx.statistic.KeyPromoterStatistics"/>
+    <applicationService serviceImplementation="de.halirutan.keypromoterx.KeyPromoterSettings"/>
+    <toolWindow id="Key Promoter X" anchor="right" icon="/de/halirutan/keypromoterx/icons/toolwindow.png"
+                factoryClass="de.halirutan.keypromoterx.KeyPromoterToolWindowFactory"/>
+    <applicationConfigurable id="keyPromoterConfiguration" displayName="Key Promoter X"
+                             instance="de.halirutan.keypromoterx.KeyPromoterConfiguration" groupId="tools"/>
+    -->
   </extensions>
 
   <actions>
