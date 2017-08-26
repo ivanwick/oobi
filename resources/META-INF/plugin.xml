@@ -40,6 +40,11 @@
     <applicationConfigurable id="keyPromoterConfiguration" displayName="Key Promoter X"
                              instance="de.halirutan.keypromoterx.KeyPromoterConfiguration" groupId="tools"/>
     -->
+    <applicationService serviceImplementation="OobiSettings"/>
+
+    <applicationConfigurable id="oobiConfiguration" displayName="OOBI Out Of Band Input"
+                             instance="OobiConfiguration" groupId="tools"/>
+
   </extensions>
 
   <actions>
